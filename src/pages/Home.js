@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="home-image">
                     <div className={styles.profileImage}>
                         <img 
-                            src="%PUBLIC_URL%/memoji.png" 
+                            src="process.env.PUBLIC_URL/memoji.png" 
                             alt="Marta Cuevas - Memoji" 
                             className={styles.memojiImage}
                         />
