@@ -1,0 +1,58 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Advanced"
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate"
+    },
+    {
+      "name": "React",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Health Informatics",
+      "level": "Advanced"
+    },
+    {
+      "name": "Data Analysis",
+      "level": "Intermediate"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "level": "Advanced"
+    },
+    {
+      "name": "Visual Studio Code",
+      "level": "Advanced"
+    },
+    {
+      "name": "Postman",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Figma",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Jupyter Notebook",
+      "level": "Intermediate"
+    }
+  ]
+}

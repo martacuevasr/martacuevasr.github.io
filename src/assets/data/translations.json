@@ -1,0 +1,56 @@
+{
+  "en": {
+    "home": {
+      "title": "Welcome to My Portfolio",
+      "introduction": "I am Marta Cuevas, a health engineer."
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a dedicated health engineer with a passion for improving healthcare systems.",
+      "skills": "Skills",
+      "tools": "Tools"
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Here are some of the projects I have worked on."
+    },
+    "resume": {
+      "title": "Resume",
+      "download": "Download CV",
+      "english": "Download English CV",
+      "spanish": "Download Spanish CV"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "es": {
+    "home": {
+      "title": "Bienvenido a Mi Portafolio",
+      "introduction": "Soy Marta Cuevas, ingeniera de la salud."
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "description": "Soy una ingeniera de la salud dedicada con pasión por mejorar los sistemas de salud.",
+      "skills": "Habilidades",
+      "tools": "Herramientas"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Aquí están algunos de los proyectos en los que he trabajado."
+    },
+    "resume": {
+      "title": "Currículum",
+      "download": "Descargar CV",
+      "english": "Descargar CV en Inglés",
+      "spanish": "Descargar CV en Español"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico"
+    }
+  }
+}

@@ -1,0 +1,276 @@
+.resumePage {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 4rem;
+    background: transparent;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.resumeHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.pageTitle {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ff3f81, #ff69a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #c9a9dd;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.resumeCard {
+    background: rgba(50, 35, 70, 0.95);
+    border-radius: 20px;
+    padding: 3rem;
+    border: 1px solid rgba(255, 63, 129, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.resumeCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #ff3f81, #ff69a3);
+}
+
+.resumeCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(255, 63, 129, 0.3);
+    border-color: #ff3f81;
+}
+
+.cardContent {
+    text-align: center;
+}
+
+.cvIcon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 2rem;
+    background: linear-gradient(135deg, #ff3f81, #ff69a3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+    box-shadow: 0 10px 30px rgba(255, 63, 129, 0.4);
+}
+
+.cardTitle {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.cardDescription {
+    color: #c9a9dd;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.languageSelector {
+    margin-bottom: 2rem;
+}
+
+.selectorLabel {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.languageButtons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.languageBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 63, 129, 0.1);
+    border: 2px solid rgba(255, 63, 129, 0.3);
+    border-radius: 25px;
+    color: #ff3f81;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.languageBtn:hover {
+    background: rgba(255, 63, 129, 0.2);
+    border-color: #ff3f81;
+    transform: translateY(-2px);
+}
+
+.languageBtn.active {
+    background: linear-gradient(135deg, #ff3f81, #ff69a3);
+    border-color: #ff3f81;
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 63, 129, 0.4);
+}
+
+.downloadSection {
+    margin-bottom: 2rem;
+}
+
+.downloadButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.2rem 2.5rem;
+    background: linear-gradient(135deg, #ff3f81, #ff69a3);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(255, 63, 129, 0.3);
+}
+
+.downloadButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(255, 63, 129, 0.5);
+    background: linear-gradient(135deg, #ff69a3, #ff3f81);
+}
+
+.additionalInfo {
+    border-top: 1px solid rgba(255, 63, 129, 0.2);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: #c9a9dd;
+    font-size: 1rem;
+}
+
+.infoItem i {
+    color: #ff3f81;
+    width: 20px;
+    text-align: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .resumePage {
+        padding-top: 140px;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .pageTitle {
+        font-size: 2.5rem;
+    }
+    
+    .resumeCard {
+        padding: 2rem;
+    }
+    
+    .languageButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .languageBtn {
+        width: 200px;
+        justify-content: center;
+    }
+    
+    .additionalInfo {
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .resumePage {
+        padding-top: 160px;
+    }
+    
+    .pageTitle {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .resumeCard {
+        padding: 1.5rem;
+    }
+    
+    .cvIcon {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+    
+    .cardTitle {
+        font-size: 1.5rem;
+    }
+    
+    .downloadButton {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+/* ANIMACIONES */
+.resumeCard {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

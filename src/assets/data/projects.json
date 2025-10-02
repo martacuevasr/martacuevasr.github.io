@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "Proyecto 1",
+      "description": "Descripción del Proyecto 1.",
+      "technologies": ["React", "JavaScript", "CSS"],
+      "link": "https://enlace-a-proyecto1.com"
+    },
+    {
+      "title": "Proyecto 2",
+      "description": "Descripción del Proyecto 2.",
+      "technologies": ["Node.js", "Express", "MongoDB"],
+      "link": "https://enlace-a-proyecto2.com"
+    },
+    {
+      "title": "Proyecto 3",
+      "description": "Descripción del Proyecto 3.",
+      "technologies": ["Python", "Flask", "SQL"],
+      "link": "https://enlace-a-proyecto3.com"
+    }
+  ]
+}
