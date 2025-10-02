@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles/Home.module.css';
+import memoji from '../assets/memoji.png';
 
 const Home = () => {
     return (
@@ -8,10 +9,11 @@ const Home = () => {
             <div className="home-container">
                 <div className="home-image">
                     <div className={styles.profileImage}>
+                        
                         <img 
-                            src="process.env.PUBLIC_URL/memoji.png" 
-                            alt="Marta Cuevas - Memoji" 
-                            className={styles.memojiImage}
+                          src={memoji} 
+                          alt="Marta Cuevas - Memoji" 
+                          className={styles.memojiImage}
                         />
                     </div>
                 </div>
