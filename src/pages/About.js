@@ -1,6 +1,12 @@
 import React from 'react';
 import styles from '../styles/About.module.css';
 
+// Importa las imágenes locales desde src/assets
+import memoji from '../assets/memoji.png';
+import nifi from '../assets/nifi.png';
+import sparql from '../assets/sparql.png';
+import hl7 from '../assets/hl7.webp';
+
 const About = () => {
     const skillCategories = [
         {
@@ -45,15 +51,15 @@ const About = () => {
             title: "Data Engineering",
             skills: [
                 { name: "ETL", logo: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png" },
-                { name: "Apache NiFi", logo: "/nifi.png" }, // Usando tu logo local
+                { name: "Apache NiFi", logo: nifi }, // Import local
                 { name: "Power BI", logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
                 { name: "Data Warehouse", logo: "https://cdn-icons-png.flaticon.com/512/2103/2103658.png" },
                 { name: "XML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xml/xml-original.svg" },
                 { name: "RDF", logo: "https://www.w3.org/RDF/icons/rdf_w3c_icon.128.gif" },
                 { name: "OWL", logo: "https://protege.stanford.edu/assets/images/protege-logo.png" },
-                { name: "SPARQL", logo: "/sparql.png" }, // Usando tu logo local
+                { name: "SPARQL", logo: sparql }, // Import local
                 { name: "MDX", logo: "https://cdn-icons-png.flaticon.com/512/2103/2103665.png" },
-                { name: "HL7", logo: "/hl7.webp" }, // Usando tu logo local
+                { name: "HL7", logo: hl7 }, // Import local
                 { name: "FHIR", logo: "https://www.hl7.org/fhir/assets/images/fhir-logo-www.png" },
                 { name: "Postman", logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" }
             ]
@@ -69,12 +75,11 @@ const About = () => {
 
     return (
         <div className={styles.aboutPage}>
-            {/* ABOUT ME - SIN TÍTULO Y MÁS ANCHO */}
             <div className={styles.aboutMeSection}>
                 <div className={styles.container}>
                     <div className={styles.aboutMeCard}>
                         <div className={styles.profileImage}>
-                            <img src="/memoji.png" alt="Marta Cuevas" className={styles.profileImg} />
+                            <img src={memoji} alt="Marta Cuevas" className={styles.profileImg} />
                         </div>
                         <div className={styles.aboutText}>
                             <p className={styles.greeting}>
@@ -89,7 +94,6 @@ const About = () => {
                 </div>
             </div>
 
-            {/* SKILLS */}
             <div className={styles.skillsSection}>
                 <div className={styles.container}>
                     <h2 className={styles.sectionTitle}>Technologies & Tools</h2>

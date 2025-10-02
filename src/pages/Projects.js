@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from '../styles/Projects.module.css';
 
+// Importa las imágenes locales desde src/assets
+import predicciones from '../assets/predicciones.png';
+import dashboard from '../assets/dashboard.png';
+import app2 from '../assets/app2.jpeg';
+
 const Projects = () => {
     const projects = [
         {
             id: 1,
             title: "Alzheimer’s MRI Image Classification using Deep Learning",
-            image: "/predicciones.png",
+            image: predicciones,
             description:
                 "Development of a convolutional neural network (CNN) model to classify brain MRI images and detect patterns associated with Alzheimer’s disease.",
             technologies: ["Python", "PyTorch", "Scikit-learn", "ImageNet models", "NumPy", "Pandas", "CNN"],
@@ -15,7 +20,7 @@ const Projects = () => {
         {
             id: 2,
             title: "Data Warehouse for Medication Expense Analysis in Hospitals",
-            image: "/dashboard.png",
+            image: dashboard,
             description:
                 "Design of a system for hospital data analysis in the U.S. using ETL pipelines, OLAP cubes, and MDX queries. Development of interactive dashboards in Power BI to extract key insights on pharmaceutical expenses.",
             technologies: ["ETL", "Power BI", "OLAP", "MDX"],
@@ -24,7 +29,7 @@ const Projects = () => {
         {
             id: 3,
             title: "Web Application for Skin Disease Detection",
-            image: "/app2.jpeg",
+            image: app2,
             description:
                 "Review of the state of the art in clinical deep learning and development of a web application for detecting skin diseases from images. Implementation with deep vision models and web technologies.",
             technologies: ["Python", "CNN", "TensorFlow", "FastAPI"],
