@@ -1,80 +1,38 @@
-# Portfolio Website
+# 🌐 Marta Cuevas – Personal Portfolio / Portfolio Personal
 
-This is a personal portfolio website for Marta Cuevas, an engineer in health. The website showcases her skills, projects, resume, and contact information.
+## 🇬🇧 English
 
-## Features
+This is my personal portfolio, where I showcase my work, skills, and professional background in the field of health engineering and technology.  
+You can visit the live site here:  
+👉 **https://martacuevasr.github.io/**
 
-- **Home Page**: Introduces Marta Cuevas and her profession.
-- **About Page**: Contains personal information, skills, and tools used.
-- **Projects Page**: Lists various projects with details fetched from a JSON file.
-- **Resume Page**: Allows users to download the CV in both English and Spanish.
-- **Contact Page**: Displays personal contact information including phone number and email.
+### ✨ What you'll find:
+- **About Me** – Who I am and what I do  
+- **Projects** – A selection of my work and technologies used  
+- **Resume/CV** – Available in English and Spanish  
+- **Contact** – How to reach me  
 
-## Project Structure
+This website was built using **React** and includes multilingual support (EN/ES).
 
-```
-portfolio-website
-├── src
-│   ├── components
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── Navigation.js
-│   │   └── LanguageToggle.js
-│   ├── pages
-│   │   ├── Home.js
-│   │   ├── About.js
-│   │   ├── Projects.js
-│   │   ├── Resume.js
-│   │   └── Contact.js
-│   ├── styles
-│   │   ├── globals.css
-│   │   ├── Home.module.css
-│   │   ├── About.module.css
-│   │   ├── Projects.module.css
-│   │   ├── Resume.module.css
-│   │   └── Contact.module.css
-│   ├── assets
-│   │   ├── documents
-│   │   │   ├── cv-english.pdf
-│   │   │   └── cv-spanish.pdf
-│   │   └── data
-│   │       ├── projects.json
-│   │       ├── skills.json
-│   │       └── translations.json
-│   ├── utils
-│   │   └── i18n.js
-│   ├── App.js
-│   └── index.js
-├── public
-│   └── index.html
-├── package.json
-└── README.md
-```
+---
 
-## Installation
+## 🇪🇸 Español
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd portfolio-website
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+Este es mi portfolio personal, donde comparto mis proyectos, habilidades y trayectoria profesional en el ámbito de la ingeniería de la salud y la tecnología.  
+Puedes acceder a la web aquí:  
+👉 **https://martacuevasr.github.io/**
 
-## Usage
+### ✨ ¿Qué encontrarás?
+- **Sobre mí** – Quién soy y a qué me dedico  
+- **Proyectos** – Algunos trabajos y tecnologías utilizadas  
+- **Currículum/CV** – Disponible en inglés y español  
+- **Contacto** – Formas de comunicarte conmigo  
 
-To start the development server, run:
-```
-npm start
-```
+Este sitio web está desarrollado con **React** y cuenta con soporte multilenguaje (ES/EN).
 
-The application will be available at `http://localhost:3000`.
+---
 
-## License
+## 📄 License / Licencia
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.  
+Este proyecto está bajo la licencia MIT.
