@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d9d1b69.css",
+    "main.js": "/static/js/main.1de8bc07.js",
+    "static/media/dashboard.png": "/static/media/dashboard.748352d92270ec47f8d8.png",
+    "static/media/predicciones.png": "/static/media/predicciones.fe6a65eaa91c699e7f92.png",
+    "static/media/memoji.png": "/static/media/memoji.8266fcb09ea9f8cd8952.png",
+    "static/media/app2.jpeg": "/static/media/app2.1b1ed0bd37fb69049882.jpeg",
+    "static/media/nifi.png": "/static/media/nifi.2d9e7c8946b66e5569c9.png",
+    "static/media/sparql.png": "/static/media/sparql.6af94327c0a885b55069.png",
+    "static/media/hl7.webp": "/static/media/hl7.5c88a32992bba44f3659.webp",
+    "index.html": "/index.html",
+    "main.7d9d1b69.css.map": "/static/css/main.7d9d1b69.css.map",
+    "main.1de8bc07.js.map": "/static/js/main.1de8bc07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d9d1b69.css",
+    "static/js/main.1de8bc07.js"
+  ]
+}
